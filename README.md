@@ -1,7 +1,7 @@
 # 2201031000159
 ### Web Technology Assignment (College)
 #### In Assignment 1,   
-I have designed a website which is an E-commerce website selling Men's Clothing in Figma.    
+I have designed a website showcasing history and some of the bestsellers of global fitness brands.
 #### In Assignment 2,    
-I have built an E-commerce website selling Men's Clothing using only HTML and CSS as per my design in Figma.   
+I have built a website showcasing history and some of the bestsellers of global fitness brands according to my design in Figma.
 
