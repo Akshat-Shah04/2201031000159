@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 200px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .brands {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .brand {
+            flex-basis: calc(33.33% - 10px);
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .brand h2 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .brand p {
+            margin-bottom: 0;
+            color: #666;
+        }
+
+        .brand a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .brand a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="navigate.css">
+</head>
+
+<body style="background-color: #f4f4f4;">
+
+    <nav>
+        <div class="navbar">
+            <div class="nav-links">
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item"><a href="Brands.html">Brands</a></div>
+                <div class="nav-item active"><a href="About.html">About Us</a></div>
+                <div class="nav-item"><a href="Contact.html">Contact</a></div>
+                <div><a href="login.html"><img src="fa-user.png" alt="" id="user"></a></div>
+            </div>
+        </div>
+        <div class="bar"></div>
+    </nav>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <p>Welcome to our shoe website! We are passionate about footwear and strive to bring you the best selection of
+            shoes from top brands.</p>
+        <p>Our website features a variety of popular brands, including <span class="highlight">Nike</span>, <span
+                class="highlight">Puma</span>, <span class="highlight">Under Armour</span>, <span
+                class="highlight">Skechers</span>, <span class="highlight">Campus</span>, and <span
+                class="highlight">Adidas</span>.</p>
+        <p>Each brand has its own dedicated webpage where you can learn about its history and explore some of its
+            best-selling shoes.</p>
+        <div class="brands">
+            <div class="brand">
+                <h2>Nike</h2>
+                <p>Learn more about Nike and its iconic footwear <a href="nike.html">here</a>.</p>
+            </div>
+            <div class="brand">
+                <h2>Puma</h2>
+                <p>Discover Puma's history and browse its top shoes <a href="puma.html">here</a>.</p>
+            </div>
+            <div class="brand">
+                <h2>Under Armour</h2>
+                <p>Explore Under Armour's best-selling shoes <a href="UA.html">here</a>.</p>
+            </div>
+        </div>
+        <div class="brands">
+            <div class="brand">
+                <h2>Skechers</h2>
+                <p>Find out more about Skechers and its popular footwear <a href="skechers.html">here</a>.</p>
+            </div>
+            <div class="brand">
+                <h2>Campus</h2>
+                <p>Check out Campus shoes and their history <a href="campus.html">here</a>.</p>
+            </div>
+            <div class="brand">
+                <h2>Adidas</h2>
+                <p>Discover Adidas's iconic footwear and much more <a href="adidas.html">here</a>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

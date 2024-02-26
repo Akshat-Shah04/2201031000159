@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCampus {
+    height: 320px;
+    width: 600px;
+    background-position: center;
+    background-image: url(https://i.pinimg.com/564x/c1/9f/65/c19f6597dca8ad08e6c645b07309589f.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -90px;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    width: 80%;
+    font-family: Inter;
+    text-align: left;
+    font-size: 20px;
+}
+
+p>h2 {
+    text-align: center;
+}
+
+p>p {
+    width: 90%;
+}
+
+.bestSeller {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.bestSeller>p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Inter;
+
+}
+
+.cmp-card {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#cp1 {
+    background-image: url(https://www.campusshoes.com/cdn/shop/products/CAMPDENVER_WHT-L.SKY_2_360x.jpg?v=1705301057);
+}
+
+#cp2 {
+    background-image: url(https://www.campusshoes.com/cdn/shop/products/CAMPZYLON_22G-985_BLU_2_360x.jpg?v=1705481890);
+}
+
+#cp3 {
+    background-image: url(https://www.campusshoes.com/cdn/shop/files/FIRST_11G-787_WHT-SIL-B.ORG_2_720x.jpg?v=1705644649);
+}
+
+#cp4 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0607/6678/1671/products/CAMPTORQUE_22G-987_BLU-2_360x.jpg?v=1705481780);
+}
+
+#cp5 {
+    background-image: url(https://www.campusshoes.com/cdn/shop/products/NORTHPLUS_11G-677_BLK-WHT_2_720x.jpg?v=1670325497);
+}
+
+#cp6 {
+    background-image: url(https://www.campusshoes.com/cdn/shop/files/CITY-RIDE_5G-627_M.GRY-LMN_720x.jpg?v=1705553301);
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.cmp-card:hover {
+    transform: scale(1.175);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    cursor: crosshair;
+}

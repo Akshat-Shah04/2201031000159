@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgNike {
+    height: 120px;
+    width: 600px;
+    background-position: center;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQoAAAC+CAMAAAD6ObEsAAAAeFBMVEX///8AAADj4+PZ2dmfn5+0tLStra38/Pzg4OD29vbFxcXz8/PU1NTw8PDt7e35+fmAgIB6enqlpaXMzMw3NzdHR0csLCxbW1ttbW2NjY1mZmZVVVUjIyO7u7uZmZlMTEyPj48/Pz8ZGRkREREzMzMlJSVxcXFgYGDAMcVOAAADeklEQVR4nO3b2WKqMBCAYSOIiBuC2uJurfb93/BYRI9gQEQwwf7fvcwwmEnC0mgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6rWHqjPQhqc6gRvNtpq4B1tN3BSDVrDsqgkdjNTElek47n7uqIpuCUWXIKndW62FGDWVJbAUgbLYV5reXAjxbSls4IYQA3XRT/qOuzjWQcx9lVkMhDiojN/oOpuxCG3UXpLhXghDXXjDnJzKIKaWotnz4timxopC29ZMnH0oHRmhz2MapoK4Teuwu9RBBMqbVaNh/iby6jy6UY+MjFsvji/lhKm8NGRvtRXXPnsvDZ9mECbjviye4X2IOB1GRmgaprN8SazmVY+MbLUYGaHPU0bVX5hjc/hK1kEc9BgZIeuU0q7ihW6yOUSrKU12PSH7/DetMIZhziVl0GlkhKZRXvOKji9pDtGcoXBxK+WeM/up4OCD5UheBiFW/QriPcW45DYr+chtP5im1WGq2cgIjS/pfZR52JTmEEVSv8+QMP8nuC7rmLb3k14G5TvwNP2rFBdl7I0zmkNIj32GTCzvp6+WHyzSSnCi3Zzxnx1L9KkL1ltlNIeTlU6rqaT4pqhw37S9u2XQeGSEjES6Re6195eu9NTjNB4ZJ8lV4MMrCz/Y56iD3iMj1LzJ+ZFnUf5mIjnrW1quppKC27xzLoYNc52rDLquppLakswX9//Ktpeyu5LYaLfPkFtKs89snR0newEVo/mccS1ldZz2BGDoBGP5L6QOus8ZV4ZpJ7G4fTrV9jfbB8pwrGdHxSkV5WScyczyo4HSNXzzcGc5nTR+zf3i8uRZGRUx0+iubU75VgWPqsuccS21VTyhRnPGtdul5rPqNGfEZHXNAnZefd/3bJVZiImyF+nK4JVXiNqOjIh5/xTzMbXfgd9jlVKHSd1WUzJl9IqRXm9BF/X0DPJV4zkjrn//ZLOsaz1nJKQ+z8zhTUbGWeHt2JdXqx14Dsk7/zmp+yyhQkW2pq66zxKq1Hu0DnuVnyVU67Fu8VOL2/hFfecvhDavmFakv7tfg19b5Z8lVG9w+0LpLbfmG8+cOpmvConfDvH+f4izjG3Z7uC822Iq29CTPuaYrP7GuEjoBbG5ZOxaxt/6O8R0mv6y5Xktxx687ToKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyOMfhy0jA7WjHyYAAAAASUVORK5CYII=);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    width: 80%;
+    font-family: Inter;
+    text-align: left;
+    font-size: 20px;
+}
+
+p>h2 {
+    text-align: center;
+}
+
+ul,
+li {
+    text-align: left;
+}
+
+p>p {
+    width: 90%;
+}
+
+.bestSeller {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.bestSeller>p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Inter;
+
+}
+
+.nike-card {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#n1 {
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/117890a6-97f0-457b-9550-80baf31ea1ea/jumpman-mvp-shoes-JV1HCs.png);
+}
+
+#n2 {
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f37fca8-6bce-43e7-ad07-f57ae3c13142/air-force-1-07-shoes-WrLlWX.png);
+}
+
+#n3 {
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b9fb6c22-9fdc-4e8c-8a76-1a253df72fdb/air-max-plus-drift-shoes-FCM3Rg.png);
+}
+
+#n4 {
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9dbb19ec-29e0-428f-b6e0-188d7ec8cc90/air-jordan-1-mid-shoes-86f1ZW.png);
+}
+
+#n5 {
+    background-image: url(https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0e261286-0c03-4b3e-ae4e-dba569d41548/air-jordan-legacy-312-low-shoes-v3FcRT.png);
+}
+
+#n6 {
+    background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5f362bb6-0812-472c-b554-39013eec513c/air-max-excee-shoes-BND2jb.png);
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.nike-card:hover {
+    transform: scale(1.175);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    cursor: crosshair;
+}

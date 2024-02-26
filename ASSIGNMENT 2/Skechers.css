@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSke {
+    height: 120px;
+    width: 600px;
+    background-position: center;
+    background-image: url(https://www.skechers.in/on/demandware.static/Sites-skechersin-Site/-/default/dwbc495b46/images/skechers-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.descript {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+p {
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+}
+
+p>h2 {
+    text-align: center;
+}
+
+p>p {
+    width: 90%;
+}
+
+.bestSeller {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.bestSeller>p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Inter;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.skecher-card {
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#s1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYy11RFJ5DQAc4KNLTH4OZL1tUKR_w_Vld803g03VhanSEwFGh);
+}
+
+#s2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF0bkmwc2VefigTK6Saha0e6QR-BUUnF44Yw&usqp=CAU);
+}
+
+#s3 {
+    background-image: url(https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012512033-Grey-Grey-1000012512033_01-2100.jpg);
+}
+
+#s4 {
+    background-image: url(https://lmsin.net/cdn-cgi/image/h=750,w=750,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012512026-Black-Black-1000012512026_01-2100.jpg);
+}
+
+#s5 {
+    background-image: url(https://lmsin.net/cdn-cgi/image/h=1125,w=1125,q=85,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000012512103-Red-WhtRed-1000012512103_01-2100.jpg);
+}
+
+#s6 {
+    background-image: url(https://mms.businesswire.com/media/20230914299516/en/1889800/4/Skechers_SKX_01_Hero_edited.jpg);
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.skecher-card:hover {
+    transform: scale(1.175);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    cursor: crosshair;
+}
